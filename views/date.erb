@@ -6,7 +6,7 @@
   </head>
   <body>
     <% d = Date.now
-     Today = "The date is #{Wednesday}, #{November 18}, #{2015}" %>
+     Today = d.strftime("The date is %A, %B %d, %Y") %>
     <h1><%= Today %></h1>
   </body>
 </html>
